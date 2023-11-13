@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Az Univerzumunk</title>
-    <link rel="icon" href="./assets/ikonok/galaxy.png" type="image/x-icon">
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Az Univerzum</title>
+  <link rel="icon" href="./assets/ikonok/galaxy.png" type="image/x-icon">
+  <script src="script.js"></script>
 </head>
 <body>
-    
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Az Univerzum</a>
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">A Föld</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">A Naprendszer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">A Galaxis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Az Univerzum</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+      
+
+<div id="video-container">
+    <video autoplay muted loop id="video-bg">
+        <source src="./assets/Fokepek/FooldalHatter.mp4" type="video/mp4">
+        A böngésződ nem támogatja a videót.
+    </video>
+    <!-- További tartalom, például más elemek, szövegek, stb. -->
+</div>
+
+<div class="a-weboldal-fő-része">
+    <h1>Az Univerzum</h1>
+</div>
+
+
+<!-- Tartalom helye -->
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container text-center">
+    <span>&copy2023.</span>
+    <span class="text-muted">A Weboldal tartalma szabadon felhasználható. Minden jog fenntartva.</span>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
