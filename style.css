@@ -1,0 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+
+nav {
+    background-color: #121212;
+}
+
+a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+}
+
+.focim {
+    font-size: 250%;
+    
+}
+
+.nav-link {
+    font-size: larger;
+}
