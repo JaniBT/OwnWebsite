@@ -9,9 +9,13 @@
         <title>LumaR - Kezdőoldal</title>
     </head>
     <body>
+        <div class="loader-overlay">
+            <div class="loader"></div>
+        </div>
+
         <header>
             <nav class="navbar navbar-expand-md navbar-dark justify-content-between p-1">
-                <a class="navbar-brand focim ml-2" href="index.html">
+                <a class="navbar-brand focim ml-2" id="focim" href="index.html">
                     LumaR
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,9 +30,11 @@
                             <a class="nav-link" href="software.html">Szoftverek</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="nonlegal-software.html">Fizetős Szoftverek Ingyen</a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">Rólunk</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -77,7 +83,94 @@
                 </a>
             </div>
         </div>
-        
+        <div class="container-fluid szoftverek">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center">Szoftverek, amiket megtalálsz nálunk!</h1>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="alert alert-danger w-100 text-center alertje" role="alert">
+                        <span class="badge badge-danger">FONTOS!</span>
+                        Csak betekintések! A szoftvereket a 'szoftverek' menüponton éri el és töltheti le.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 mb-4 mt-4 border border-info">
+                    <div class="media">
+                        <img src="/assets/Fokepek/visual-studio-code-icons/vscode.svg" class="mr-3 mt-4" alt="VSCode">
+                        <div class="media-body mb-4 mt-4">
+                          <h5 class="mt-0">Visual Studio Code <span class="badge badge-info">INGYENES</span></h5>
+                          Egy olyan szoftverről beszélhetünk, amelyben jópár nyelven tudunk programkódot írni. Rengeteg Extension (Bővítmény) érhető el, az alkalmazáson belül, amik segítségünkre készültek, hogy minél egyszerűbb legyen programokat készíteni. Jelenleg is a világ egyik legnépszerűbb Code Editor-a (Kódszerkesztője). 
+                        </div>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/B-s71n0dHUk?si=L0I_YdqVxZJwoMSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 mb-4 mt-4 border border-danger">
+                    <div class="media">
+                        <div class="media-body mb-4 mt-4">
+                          <h5 class="mt-0 mb-2">PyCharm <span class="badge badge-danger">INGYENES / FIZETŐS</span></h5>
+                          A JetBrains által készített szoftver egy nagyon letisztult python kódszerkesztő. Ez csak egy a több JetBrains által készített és folyamatos frissítésekkel ellátott szoftverek közül. A PyCharm Community Edition (*Közösségi kiadás) Ingyenes, de az eredeti kiadás nem ingyenes.
+                        </div>
+                        <img src="/assets/Fokepek/PyCharm_Icon.svg" class="ml-3 mt-4" alt="PyCharm">
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HHcZbXsZtm0?si=QENqYp0aqjeiLG6u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 mb-4 mt-4 border border-warning">
+                        <div class="media">
+                            <img src="/assets/Fokepek/icons8-visual-studio.svg" class="mr-3 mt-4" alt="Visual Studio">
+                            <div class="media-body mb-4 mt-4">
+                              <h5 class="mt-0 mb-2">Visual Studio <span class="badge badge-warning">INGYENES / FIZETŐS</span></h5>
+                              A Visual Studio a Microsoft által fejlesztett integrált fejlesztőkörnyezet (IDE), amely széles körű támogatást nyújt számos programozási nyelvhez és alkalmazás típushoz. A Visual Studio egy erőteljes eszköz, amelyet fejlesztők használhatnak alkalmazásaik tervezéséhez, kódolásához, teszteléséhez és hibakereséséhez.
+                            </div>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9 mb-4">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VcU2HGsxeII?si=vfxOJZUlu2iytPgT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 mb-4 mt-4 border border-success">
+                        <div class="media">
+                            <div class="media-body mb-4 mt-4">
+                              <h5 class="mt-0 mb-2">Github Desktop <span class="badge badge-success">INGYENES</span></h5>
+                              A Github Desktop a CMD-s megoldást hivatott megkönnyíteni. Letisztult felülettel rendelkezik, jól van optimalizálva és a fejlesztői környezetekkel is remekül kommunikál. Tökéletes alkalmazás azoknak, akik nem szeretnének az alap, parancssoros megoldással meggyürkőzni. Többféleképpen alkalmazhatóak a benne rejlő funkciók.
+                            </div>
+                            <img src="/assets/Fokepek/Github-desktop-logo-symbol.svg" class="ml-3 mt-4" alt="PyCharm">
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9 mb-4">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/l7uo1d3R0Wo?si=8hEkpUYD6yeZJFMr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <footer>
+            <div class="container mt-1">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="align-middle">Minden jog fenntartva.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="align-middle">&copy; Copyright LumaR.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" id="popover" class="btn btn-outline-info btn-sm align-middle mb-3" data-container="body" data-toggle="popover" data-placement="top" data-content="Képek: Unsplash.com, Ikonok: Szoftverek weboldala.">
+                            Források
+                        </button>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="align-middle"><a href="#focim" id="backToTopBtn">Vissza a tetejére</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         <script src="script.js"></script>
