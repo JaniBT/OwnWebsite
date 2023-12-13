@@ -1,5 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/bebas-neue');
 
+body {
+    background-color: #121212;
+}
+
 nav {
     background-color: #121212;
 }
@@ -100,4 +104,13 @@ footer {
 
 .loader-szoveg {
     margin-top: 10px;
+}
+
+.jumbotronhatter {
+    background-color: #121212;
+}
+
+.slack {
+    width: 144px;
+    height: 144px;
 }
