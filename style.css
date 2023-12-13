@@ -51,11 +51,21 @@ h1{
     h1 {
         font-size: 250%;
     }
+    .kartyak {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
 }
 
 @media (max-width: 400px) {
     h1 {
         font-size: 125%;
+    }
+    .kartyak {
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 }
 
