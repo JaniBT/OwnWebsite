@@ -75,7 +75,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255); /* Fehér háttér átlátszó */
+    background: rgba(255, 255, 255, 0.5); /* Fehér háttér átlátszó */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,10 +100,6 @@ footer {
     100% {
         transform: rotate(360deg);
     }
-}
-
-.loader-szoveg {
-    margin-top: 10px;
 }
 
 .jumbotronhatter {
