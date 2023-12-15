@@ -34,11 +34,19 @@ a {
     font-size: larger;
 }
 
-h1{
+h1 {
     padding-top: 25px;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: bold;
     font-size: 500%;
+    color: #BB86FC;
+}
+
+h2 {
+    padding-top: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
     color: #BB86FC;
 }
 
