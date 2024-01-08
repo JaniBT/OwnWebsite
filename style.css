@@ -118,3 +118,17 @@ footer {
     width: 144px;
     height: 144px;
 }
+
+label{
+    color: #fff;
+}
+
+.rolunk-szoveg{
+    color: #fff;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.rolunk-kep{
+    width: 50%;
+}

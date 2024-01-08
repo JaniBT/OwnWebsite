@@ -17,4 +17,4 @@ A weboldal linkje: [Ide katt!](https://janibt.github.io/OwnWebsite/)
 
 ## A Weboldal jelenleg is fejlesztés alatt ál. (Beta Version)
 
-*A projektet Csordás János készíti egyedül. A felhasznált elemek a weboldalon felvannak tüntetve. Segítségül a Bootstrap dokumentációt használtam és a konzultánsom a ChatGPT 3.5 volt.*
+*A projektet Anonymous készíti egyedül. A felhasznált elemek a weboldalon felvannak tüntetve. Segítségül a Bootstrap dokumentációt használtam és a konzultánsom a ChatGPT 3.5 volt.*
